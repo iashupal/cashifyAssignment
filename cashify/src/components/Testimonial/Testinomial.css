@@ -1,0 +1,12 @@
+.testinomial__image img{
+    position: relative;
+}
+.testinomial__image img{
+    box-shadow: -140px 160px 0 0 var(--rusty-red);
+    border-radius: 5px;
+}
+@media screen and (max-width:992px){
+    .testinomial__image{
+        margin: 0 80px;
+    }
+}

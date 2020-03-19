@@ -1,0 +1,65 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    /* background-color: blue; */
+}
+.header__inner{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+
+}
+.header .header__logo{
+    margin-top: 20px;
+    text-align: center;
+}
+.header .header__logo img.logo{
+    width: 106px;
+}
+.header__menu{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+    opacity: 0.61;
+    height: 50px;
+    /* align-items: center; */
+}
+.header__menu .header__menu-content{
+    background-color: var(--purple-brown);
+}
+.header .header__menu-icons{
+    background-color: var(--rusty-red);
+    text-align: left;
+    padding-left: 30px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.header__menu-content p{
+    display: inline-block;
+    color: var(--white);
+    padding: 20px;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.24px;
+    text-align: left;
+    cursor: pointer;
+}
+.header .header__menu-icons img.icons{
+    width: 20px;
+    object-fit: contain;
+    display: inline-block;
+    color: var(--white);
+    margin: 20px;
+    cursor: pointer;
+}
+.header__menu-content p:hover, .header__menu-content p:focus, .header .header__menu-icons img.icons:hover, .header .header__menu-icons img.icons:focus{
+    font-weight: bold;
+}

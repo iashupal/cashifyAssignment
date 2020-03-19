@@ -1,0 +1,12 @@
+.coverflow__slider{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: var(--orange-yellow);
+}
+
+.coverflow__content{
+    width: 200px;
+    text-align: center;
+    background-color: var(--white);
+}

@@ -1,0 +1,42 @@
+.testinomial__content img{
+    width: 50px;
+    object-fit: contain;
+}
+.testinomial__content p{
+    font-size: 16px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 30px auto;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: var(--black);
+}
+
+.testinomial__content h4{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.38px;
+    text-align: left;
+    color: var(--black);
+    position: relative;
+    margin-right: 10px;
+}
+.testinomial__content h4:after{
+    content: '';
+    position: absolute;
+    border: 1px solid var(--rusty-red);
+    width: 45px;
+    top: 8px;
+    left: 135px;
+}
+
+@media screen and (max-width:992px){
+    .testinomial__content{
+        margin-top: 200px;
+    }
+}

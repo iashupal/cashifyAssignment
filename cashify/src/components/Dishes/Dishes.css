@@ -1,0 +1,25 @@
+.dishes{
+  cursor: pointer;  
+  text-align: center;
+  margin: 40px auto;
+}
+.dishes:hover, .dishes:focus{
+    border-radius: 2.5px;
+    box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
+    background-color: var(--white);
+}
+
+.dishes img{
+    width: 50px;
+    text-align: center;
+}
+.dishes p{
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}

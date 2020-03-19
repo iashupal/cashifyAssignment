@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    margin: 70px auto;
+    width: 100%;
+    position: relative;
+}
+.heading h2{
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.8;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: var(--rusty-red);
+  position: relative;
+}
+.heading h2:before{
+    content: url('../../assets/images/brush.svg');
+    position: absolute;
+    bottom: -40px;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--purplish-brown);
+}
